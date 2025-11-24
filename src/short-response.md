@@ -20,7 +20,7 @@ Provide a code snippet to illustrate _encapsulation_.
 
 ## Response 1
 
---- Encapsulation is the bundling of related data into one unit and giving controlled access to that data so it won’t end up breaking your code. With encapsulation, your code is easier to maintain, and you can change how the inside works without breaking code that uses the object. This will allow you to avoid bugs because people can’t directly modify values that they shouldn’t touch unless you put in a safe way for them to do so.
+Encapsulation is the bundling of related data into one unit and giving controlled access to that data so it won’t end up breaking your code. With encapsulation, your code is easier to maintain, and you can change how the inside works without breaking code that uses the object. This will allow you to avoid bugs because people can’t directly modify values that they shouldn’t touch unless you put in a safe way for them to do so.
 
 This concept is beneficial when programming because it helps you protect and organize the data that belongs together, making the codebase easier to understand and work with. Without encapsulation, you risk exposing too many internal details, which can lead to mistakes, confusion, and unwanted interactions between different parts of your code.
 
@@ -70,7 +70,7 @@ console.log(counterB.count);
 
 ## Response 2
 
---- The this keyword in JavaScript is a special identifier whose value is determined at runtime based on how a function is called, not where it is written. this refers to the object that is currently executing the function, and its value changes depending on the context that is calling it. Inside class constructors and methods, this refers to the instance created by new. If a regular function is attached to an object and called as a method, this becomes that object. Arrow functions do not create their own this; instead, they inherit the this value from the parent scope.
+The this keyword in JavaScript is a special identifier whose value is determined at runtime based on how a function is called, not where it is written. this refers to the object that is currently executing the function, and its value changes depending on the context that is calling it. Inside class constructors and methods, this refers to the instance created by new. If a regular function is attached to an object and called as a method, this becomes that object. Arrow functions do not create their own this; instead, they inherit the this value from the parent scope.
 
 This keyword is useful because it allows each object instance to access and update its own properties without needing different variable names for every instance.
 
@@ -81,8 +81,6 @@ In the code snippet above, the this keyword is used inside a class, so it refers
 In your own words, explain what **polymorphism** means in OOP. Provide an example in code that demonstrates polymorphism.
 
 ## Response 3
-
----
 
 Polymorphism is when two different types of objects can be treated the same way because they share the same method names, even though the method outputs are different.
 
